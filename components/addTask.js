@@ -56,7 +56,7 @@ export const addTask = (evento) => {
         taskContent.appendChild(check);
         taskContent.appendChild(titleTask);
     
-    const dateElement = document.createElement("span");
+        const dateElement = document.createElement("span");
         dateElement.innerHTML = dateFormat;
         task.appendChild(taskContent);
         task.appendChild(dateElement);
